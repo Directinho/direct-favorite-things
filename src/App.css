@@ -1,10 +1,14 @@
-.App {
-  text-align: center;
+/* App.css */
+.app {
+  position: relative;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  position: relative;
+  z-index: 10; /* Garante que o conteúdo fique acima do fundo */
+  padding: 2rem;
+  color: white; /* Ajuste conforme necessário */
 }
 
 @media (prefers-reduced-motion: no-preference) {
